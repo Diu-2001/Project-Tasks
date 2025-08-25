@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.title{
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+
+.card-box{
+    background: #fff;
+    padding: 25px 65px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#countHead{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+#decrementBtn{
+    border: 0;
+    background-color: #BBDCE5;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+#resetBtn{
+    border: 0;
+    background-color: #BBDCE5;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+#incrementBtn{
+    border: 0;
+    background-color: #BBDCE5;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+#decrementBtn:hover{
+    background-color: #8fd6ea;
+    font-size: 18px;
+    transition: font-size 0.5s ease-out;
+}
+
+#resetBtn:hover{
+    background-color: #8fd6ea;
+    font-size: 18px;
+    transition: font-size 0.5s ease-out;
+}
+
+#incrementBtn:hover{
+    background-color: #8fd6ea;
+    font-size: 18px;
+    transition: font-size 0.5s ease-out;
+}
